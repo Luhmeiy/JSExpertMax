@@ -2,6 +2,7 @@ const { GestureDescription, Finger, FingerCurl } = window.fp;
 
 const ScrollDownGesture = new GestureDescription("scroll-down"); // ✊️
 const ScrollUpGesture = new GestureDescription("scroll-up"); // 🖐
+const ClickGesture = new GestureDescription("click"); // 🤏
 const RockGesture = new GestureDescription("rock"); // 🤘
 const PeaceSignGesture = new GestureDescription("peace-sign"); // ✌
 
@@ -25,6 +26,21 @@ for (let finger of [Finger.Index, Finger.Middle, Finger.Ring, Finger.Pinky]) {
 // no finger should be curled
 for (let finger of Finger.all) {
 	ScrollUpGesture.addCurl(finger, FingerCurl.NoCurl, 1.0);
+}
+
+// Click
+// -----------------------------------------------------------------------------
+
+ClickGesture.addCurl(Finger.Index, FingerCurl.FullCurl, 0.5);
+ClickGesture.addCurl(Finger.Index, FingerCurl.HalfCurl, 0.8);
+
+ClickGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 1.0);
+ClickGesture.addCurl(Finger.Thumb, FingerCurl.HalfCurl, 0.4);
+
+// all other fingers: curled
+for (let finger of [Finger.Middle, Finger.Ring, Finger.Pinky]) {
+	ClickGesture.addCurl(finger, FingerCurl.FullCurl, 0.9);
+	ClickGesture.addCurl(finger, FingerCurl.HalfCurl, 1.0);
 }
 
 // Rock
@@ -66,6 +82,7 @@ for (let finger of [Finger.Pinky, Finger.Ring]) {
 const knownGestures = [
 	ScrollDownGesture,
 	ScrollUpGesture,
+	ClickGesture,
 	RockGesture,
 	PeaceSignGesture,
 ];
@@ -73,6 +90,7 @@ const knownGestures = [
 const gestureStrings = {
 	"scroll-up": "🖐",
 	"scroll-down": "✊️",
+	"click": "🤏",
 	"rock": "🤘",
 	"peace-sign": "✌",
 };

@@ -27,10 +27,10 @@ Star this project 🌟
 -   Titles List
 
     -   [x] -   Search field should not slow down when typing search term
-    -   [ ] -   It should draw hands on the screen and make background elements still clickable 🙌
+    -   [x] -   It should draw hands on the screen and make background elements still clickable 🙌
     -   [x] -   Must trigger scroll up when using open palm 🖐
     -   [x] -   Must trigger scroll down when using closed palm ✊
-    -   [ ] -   Must trigger click on nearest element when using pinch gesture 🤏🏻
+    -   [x] -   Must trigger click on nearest element when using pinch gesture 🤏🏻
     -   [ ] -   When moving elements on screen, must trigger **:hover** event on elements in context
 
 -   Video Player
