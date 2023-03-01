@@ -1,8 +1,13 @@
 # JSExpertMax Gesture Controller - Semana JS Expert 7.0
 
-Seja bem vindo(a) à sétima Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.
+<p align="center">
+    <span>English</span> |
+    <a href="https://github.com/Luhmeiy/JSExpertMax/tree/main/lang/pt-br/#jsexpertmax-gesture-controller---semana-js-expert-70">Português Brasileiro</a>
+</p>
 
-Marque esse projeto com uma estrela 🌟
+Welcome to the seventh Javascript Expert Week. This is the initial code to start our journey.
+
+Star this project 🌟
 
 ## Preview
 
@@ -10,41 +15,41 @@ Marque esse projeto com uma estrela 🌟
 
 ## Pre-reqs
 
--   Este projeto foi criado usando Node.js v19.6
+-   This project was created using Node.js v19.6
 
 ## Running
 
--   Execute `npm ci` para restaurar os pacotes
--   Execute `npm start` e em seguida vá para o seu navegador em [http://localhost:3000](http://localhost:3000) para visualizar a página acima
+-   Run `npm ci` to restore packages
+-   Run `npm start` and then go to your browser at [http://localhost:3000](http://localhost:3000) to view the above page
 
 ## Checklist Features
 
 -   Titles List
 
-    -   [x] -   Campo para pesquisa não deve travar ao digitar termo de pesquisa
-    -   [ ] -   Deve desenhar mãos na tela e fazer com que elementos em segundo plano continuem sendo clicáveis 🙌
-    -   [x] -   Deve disparar scroll up quando usar a palma das mãos abertas 🖐
-    -   [x] -   Deve disparar scroll down quando usar a palma das mãos fechadas ✊
-    -   [ ] -   Deve disparar click no elemento mais próximo quando usar gesto de pinça 🤏🏻
-    -   [ ] -   Ao mover elementos na tela, deve disparar evento **:hover** em elementos em contexto
+    -   [x] -   Search field should not slow down when typing search term
+    -   [ ] -   It should draw hands on the screen and make background elements still clickable 🙌
+    -   [x] -   Must trigger scroll up when using open palm 🖐
+    -   [x] -   Must trigger scroll down when using closed palm ✊
+    -   [ ] -   Must trigger click on nearest element when using pinch gesture 🤏🏻
+    -   [ ] -   When moving elements on screen, must trigger **:hover** event on elements in context
 
 -   Video Player
-    -   [x] -   Deve ser possivel de reproduzir ou pausar videos com o piscar de olhos 😁
-    -   [x] -   Todo processamento de Machine Learning deve ser feito via Web worker
+    -   [x] -   It should be possible to play or pause videos with the blink of an eye 😁
+    -   [x] -   All Machine Learning processing must be done via a Web worker
 
-### Desafios
+### Challenges
 
--   [ ] -   Aula 01 - Diferenciar piscada de olhos entre olho direito e esquerdo e atualizar log para mostrar qual olho que piscou.
--   [x] -   Aula 02 - Reconhecer gestos de mãos individuais e printar no log
--   [ ] -   Aula 03 - A definir
--   [ ] -   Aula 04 - A definir
+-   [ ] -   Class 01 - Differentiate eye blink between right and left eye and update log to show which eye blinked.
+-   [x] -   Class 02 - Recognize individual hand gestures and print in the log.
+-   [ ] -   Class 03 - TBA
+-   [ ] -   Class 04 - TBA
 
-### Considerações
+### Considerations
 
--   Tire suas dúvidas sobre os desafios em nossa comunidade, o objetivo é você aprender de forma divertida. Surgiu dúvidas? Pergunte por lá!
+-   Ask your doubts about the challenges in our community, the goal is for you to learn in a fun way. Doubts arose? Ask around!
 
--   Ao completar qualquer um dos desafios, envie no canal **#desafios** da comunidade no **Discord**
+-   When you complete any of the challenges, send them to the **#desafios** community channel on **Discord**
 
-### Créditos ao Layout
+### Layout Credits
 
--   Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
+-   Interface based on [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) by [gunnarhawk](https://github.com/Gunnarhawk)
