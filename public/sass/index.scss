@@ -473,7 +473,7 @@ a {
 					display: none;
 					flex-direction: column;
 					height: 100%;
-					justify-content: end;
+					justify-content: flex-end;
 					padding: 0px 15px;
 					position: relative;
 					text-overflow: ellipsis;
@@ -775,7 +775,7 @@ a {
 		.socials {
 			align-items: center;
 			display: flex;
-			justify-content: end;
+			justify-content: flex-end;
 
 			a {
 				svg {

@@ -3,17 +3,24 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w public/sass -o public/css",
-    "start": "npx browser-sync -w"
+    "sass": "node-sass public/sass/index.scss public/css/style.css -w",
+    "start": "npx browser-sync -w",
+
+    "compile:sass": "node-sass public/sass/index.scss public/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' public/css/style.comp.css -o public/css/style.prefix.css",
+    "compress:css": "node-sass public/css/style.prefix.css public/css/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "keywords": [],
   "author": "erickwendel",
   "license": "MIT",
   "description": "JSExpert Max Gesture Controller - Semana JS Expert 7.0",
   "devDependencies": {
-    "browser-sync": "^2.27.11"
-  },
-  "dependencies": {
-    "node-sass": "^8.0.0"
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "concat": "^1.0.3",
+    "node-sass": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0"
   }
 }
