@@ -9,7 +9,7 @@
 -   Projects made with TensorFlow: https://youtube.com/playlist?list=PLQY2H8rRoyvzSZZuF0qJpoJxZR1NgzcZw
 -   Training ML on Google: https://teachablemachine.withgoogle.com/
 
-## Aula 01
+## Class 01
 
 -   Calculation Code: https://github.com/monaca-samples/blink-to-text/blob/f3d578ff641298913833b04e98e854bf1cfe38e1/src/js/blinkPrediction.js
 -   worker.js dependencies
@@ -33,7 +33,7 @@ import "https://unpkg.com/@tensorflow-models/face-landmarks-detection@0.0.1/dist
 -   Layout used: https://codepen.io/Gunnarhawk/pen/vYJEwoM
 -   Explanation of why WebGL, CPU, WebAssembly: https://youtu.be/3ive-w7oUis?t=333
 
-## Aula 02
+## Class 02
 
 -   Gestures file to copy: https://github.com/andypotato/rock-paper-scissors/blob/54add341dbe83287c8ede69fbb006149a8145dd9/src/js/Gestures.js
 -   Imports from handGestureFactory file:
@@ -52,8 +52,14 @@ import "https://cdn.jsdelivr.net/npm/fingerpose@0.1.0/dist/fingerpose.min.js";
 -   Jokenpo: https://github.com/andypotato/rock-paper-scissors
 -   Diagram of TensorFlow HandPoseDetection: https://github.com/tensorflow/tfjs-models/tree/master/hand-pose-detection#keypoint-diagram
 
-## Aula 03
+## Class 03
 
 -   Solar Hands project: https://github.com/liady/solar-hands
 -   TensorFlow API Finger Indexes: https://github.com/tensorflow/tfjs-models/tree/a345f0c58522af25d80153ec27c6e999e45fdd42/hand-pose-detection#keypoint-diagram
 -   elementFromPoint API: https://developer.mozilla.org/en-US/docs/Web/API/Document/elementFromPoint
+
+## Class 04
+
+-   Live preview: https://erickwendel.github.io/semana-javascript-expert07-pre/classes/class04/
+-   Stack Overflow question: https://stackoverflow.com/a/54212926/4087199
+-   PseudoStyler: https://github.com/TSedlar/pseudo-styler
