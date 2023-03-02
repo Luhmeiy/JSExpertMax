@@ -16,9 +16,7 @@ import {
 import Camera from "../../../../lib/shared/camera.js";
 const camera = await Camera.init();
 
-fingerLookupIndexes;
-
-const [rootPath] = window.location.href.split("/pages/");
+const styler = new PseudoStyler();
 
 const factory = {
 	async initialize() {
@@ -26,6 +24,7 @@ const factory = {
 			camera,
 			view: new HandGestureView({
 				fingerLookupIndexes,
+				styler,
 			}),
 			service: new HandGestureService({
 				gestureStrings,

@@ -31,7 +31,7 @@ Star this project 🌟
     -   [x] -   Must trigger scroll up when using open palm 🖐
     -   [x] -   Must trigger scroll down when using closed palm ✊
     -   [x] -   Must trigger click on nearest element when using pinch gesture 🤏🏻
-    -   [ ] -   When moving elements on screen, must trigger **:hover** event on elements in context
+    -   [x] -   When moving elements on screen, must trigger **:hover** event on elements in context
 
 -   Video Player
     -   [x] -   It should be possible to play or pause videos with the blink of an eye 😁
