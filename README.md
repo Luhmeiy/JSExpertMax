@@ -42,7 +42,7 @@ Star this project 🌟
 -   [ ] -   Class 01 - Differentiate eye blink between right and left eye and update log to show which eye blinked
 -   [x] -   Class 02 - Recognize individual hand gestures and print in the log
 -   [x] -   Class 03 - Make hand appear on top of overlay
--   [ ] -   Class 04 - Use virtual hands also in Video Player
+-   [x] -   Class 04 - Use virtual hands also in Video Player
 -   [ ] -   Challenge plus: Implement unit tests and achieve 100% coverage (advanced)
 
 ### Links shown in classes:

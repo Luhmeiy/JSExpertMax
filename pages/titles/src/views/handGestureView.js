@@ -42,6 +42,15 @@ export default class HandGestureView {
 
 		if (!element) return;
 
+		if (element.outerHTML.search(/<video/) === 0) {
+			if (element.paused) {
+				element.play();
+				return;
+			}
+
+			element.pause();
+		}
+
 		const rect = element.getBoundingClientRect();
 		const event = new MouseEvent("click", {
 			view: window,
@@ -50,6 +59,8 @@ export default class HandGestureView {
 			clientX: rect.left + x,
 			clientY: rect.right + y,
 		});
+
+		console.log(event);
 
 		element.dispatchEvent(event);
 	}
