@@ -60,8 +60,6 @@ export default class HandGestureView {
 			clientY: rect.right + y,
 		});
 
-		console.log(event);
-
 		element.dispatchEvent(event);
 	}
 

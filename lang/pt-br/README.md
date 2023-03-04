@@ -39,7 +39,7 @@ Marque esse projeto com uma estrela 🌟
 
 ### Desafios
 
--   [ ] -   Aula 01 - Diferenciar piscada de olhos entre olho direito e esquerdo e atualizar log para mostrar qual olho que piscou
+-   [x] -   Aula 01 - Diferenciar piscada de olhos entre olho direito e esquerdo e atualizar log para mostrar qual olho que piscou
 -   [x] -   Aula 02 - Reconhecer gestos de mãos individuais e printar no log
 -   [x] -   Aula 03 - Fazer a mão aparecer em cima da sobreposição
 -   [x] -   Aula 04 - Usar as mãos virtuais também no Video Player

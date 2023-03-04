@@ -67,11 +67,25 @@ export default class Service {
 			const blinked =
 				leftEAR <= EAR_THRESHOLD && rightEAR <= EAR_THRESHOLD;
 
-			if (!blinked) continue;
+			if (!blinked) {
+				const leftBlinked = leftEAR <= EAR_THRESHOLD;
+				const rightBlinked = rightEAR <= EAR_THRESHOLD;
+
+				if (rightBlinked) {
+					if (!shouldRun()) continue;
+
+					return { direction: "right", counter: rightBlinked };
+				} else if (leftBlinked) {
+					if (!shouldRun()) continue;
+
+					return { direction: "left", counter: leftBlinked };
+				}
+				continue;
+			}
 
 			if (!shouldRun()) continue;
 
-			return blinked;
+			return { direction: "both", counter: blinked };
 		}
 
 		return false;
